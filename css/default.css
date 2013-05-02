@@ -1,0 +1,15 @@
+body {
+    font-size: 90%;
+    background-color: #f5f5f5;
+    margin: 1em auto;
+}
+
+* {
+    font-family: 'Open Sans', sans-serif!important;
+    outline: 0;
+}
+
+@font-face {
+    font-family: DigitalDream;
+    src: url('../font/digitaldream.ttf');
+}
