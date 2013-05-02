@@ -13,3 +13,27 @@ body {
     font-family: DigitalDream;
     src: url('../font/digitaldream.ttf');
 }
+
+h1 {
+    font-size: 230%;
+    font-weight: 700;
+    text-align: center;
+    padding: 0.5em;
+    line-height: 1.2;
+}
+
+#wrapper {
+    padding: 30px 20px 25px;
+    background-color: #fff;
+    border: 1px solid #e5e5e5;
+    width: 940px;
+    margin: 0 auto;
+    -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+#footer {
+    margin: 1.5em auto 2em auto;
+    width: 940px;
+}
