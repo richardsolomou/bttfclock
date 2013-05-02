@@ -9,17 +9,21 @@ body {
     outline: 0;
 }
 
-@font-face {
-    font-family: DigitalDream;
-    src: url('../font/digitaldream.ttf');
-}
-
 h1 {
     font-size: 230%;
     font-weight: 700;
     text-align: center;
     padding: 0.5em;
     line-height: 1.2;
+}
+
+a {
+    color: #e37624;
+}
+
+@font-face {
+    font-family: DigitalDream;
+    src: url('../font/digitaldream.ttf');
 }
 
 #wrapper {
@@ -37,3 +41,16 @@ h1 {
     margin: 1.5em auto 2em auto;
     width: 940px;
 }
+
+#board {
+    background: url('../img/board.png') no-repeat center;
+    min-height: 549px;
+    padding-left: 2em;
+    padding-top: 9px;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    cursor: default;
+}
+
+.big { font-size: 130%; }
+.centered { text-align: center; }
