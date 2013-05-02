@@ -77,3 +77,9 @@ a {
 
 #destinationTime .year { margin-left: 0.85em; }
 #lastTimeDeparted .hour { margin-left: 1.3em; margin-right: -0.05em; }
+
+h1#response {
+    font-size: 600%;
+    font-weight: 900;
+    padding-top: 0.2em;
+}
