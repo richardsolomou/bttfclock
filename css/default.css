@@ -62,3 +62,7 @@ a {
     text-transform: uppercase;
     opacity: 0.8;
 }
+
+#destinationTime { color: #e37624; text-shadow: 0 0 1em #e37624; }
+#presentTime { color: #a2ef6f; text-shadow: 0 0 1em #a2ef6f; }
+#lastTimeDeparted { color: #edce71; text-shadow: 0 0 1em #edce71; }
