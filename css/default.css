@@ -54,3 +54,11 @@ a {
 
 .big { font-size: 130%; }
 .centered { text-align: center; }
+
+#destinationTime *, #presentTime *, #lastTimeDeparted * {
+    font-family: DigitalDream!important;
+    font-size: 400%;
+    line-height: 3.3;
+    text-transform: uppercase;
+    opacity: 0.8;
+}
