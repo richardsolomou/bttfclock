@@ -6,41 +6,62 @@
 		<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans">
 		<link rel="stylesheet" href="css/default.css">
-		<script src="lib/jquery-1.9.1.min.js"></script>
+		<script src="lib/jquery-1.10.2.min.js"></script>
 		<script src="lib/moment.min.js"></script>
 		<script src="lib/custom.js"></script>
 	</head>
 	<body>
-		<div id="wrapper">
-			<h1>Is today the day that Marty McFly arrives from travelling to the future?</h1>
-			<div id="board">
-				<div id="destinationTime">
-					<span class="month"></span>
-					<span class="day"></span>
-					<span class="year"></span>
-					<span class="hour"></span>
-					<span class="min"></span>
-				</div>
-				<div id="presentTime">
-					<span class="month"></span>
-					<span class="day"></span>
-					<span class="year"></span>
-					<span class="hour"></span>
-					<span class="min"></span>
-				</div>
-				<div id="lastTimeDeparted">
-					<span class="month"></span>
-					<span class="day"></span>
-					<span class="year"></span>
-					<span class="hour"></span>
-					<span class="min"></span>
+		<header>
+			<div class="wrapper">
+				<a id="forkribbon" href="https://github.com/rsolomou/bttfhoax"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://s3.amazonaws.com/github/ribbons/forkme_right_red_aa0000.png" alt="Fork me on GitHub"></a>
+				<div id="qa">
+					<h1 id="question">Is today the day that Marty McFly arrives from travelling to the future?</h1>
+					<h1 id="response"></h1>
 				</div>
 			</div>
-			<h1 id="response"></h1>
-			<p class="big centered">There's <span id="timeLeft"></span> left until Marty McFly arrives.</p>
-		</div>
-		<div id="footer">
-			<p>Developed by <a href="http://twitter.com/rsolomou" target="_blank">@rsolomou</a></p>
-		</div>
+		</header>
+		<article>
+			<div class="wrapper">
+				<div id="board">
+					<div id="boardwrapper">
+						<div id="destinationTime">
+							<span class="month"></span>
+							<span class="day"></span>
+							<span class="year"></span>
+							<span class="hour"></span>
+							<span class="min"></span>
+						</div>
+						<div id="presentTime">
+							<span class="month"></span>
+							<span class="day"></span>
+							<span class="year"></span>
+							<span class="hour"></span>
+							<span class="min"></span>
+						</div>
+						<div id="lastTimeDeparted">
+							<span class="month"></span>
+							<span class="day"></span>
+							<span class="year"></span>
+							<span class="hour"></span>
+							<span class="min"></span>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div id="arrival">There's <span id="timeLeft"></span>&nbsp;left until Marty McFly arrives.</div>
+		</article>
+		<footer>
+			<div class="wrapper">
+				<div class="pull-left">
+					<p>Developed by <a href="http://github.com/rsolomou" target="_blank">Richard Solomou</a></p>
+					<p>Supervised by <a href="http://github.com/ear1grey" target="_blank">Rich Boakes</a></p>
+				</div>
+				<div class="pull-right">
+					<a href="http://www.port.ac.uk/" target="_blank">
+						<img src="img/uop_logo.png">
+					</a>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
